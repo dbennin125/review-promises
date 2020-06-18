@@ -1,7 +1,7 @@
 {
   "name": "promises",
   "version": "1.0.0",
-  "description": "",
+  "description": "an app",
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose --runInBand --testLocationInResults",
@@ -16,5 +16,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "jest": "^26.0.1",
+    "superagent": "^5.2.2"
+  }
 }
